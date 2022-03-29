@@ -1,0 +1,51 @@
+
+*{
+    background-color: rgb(165, 13, 102);
+}
+
+#main{
+     height: 40px; 
+    width:30%;
+    margin: auto;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    align-items: center;
+    
+    color: rgb(57, 7, 173);
+}
+#main>i{
+    font-size: 20px;
+    color: rgb(57, 7, 173);
+    margin-right: 30px;
+    background-color: white;
+ 
+
+}
+#main>input{
+  flex:1;
+  height: 35px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+ margin-left: 20px;
+ background-color: white;
+ color: rgb(57, 7, 173);
+}
+
+
+#container{
+    height:800px;
+    width:50%;
+    margin: auto;
+    margin-top: 1%;
+    color: white;
+    /* border: solid teal; */
+}
+#poster{
+    height:450px;
+    width: 400px;
+    
+}
